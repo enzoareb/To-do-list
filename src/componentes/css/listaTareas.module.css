@@ -1,0 +1,59 @@
+.lista {
+    list-style: none;
+    height: 100%;
+    overflow: auto;
+}
+
+.tarea {
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+    color: #4B4B4B;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.texto {
+    text-align: left;
+    width: 100%;
+}
+
+.tarea:hover .iconoAccion {
+    opacity: 0.5;
+}
+
+.tarea:nth-child(even) {
+    background: #F3F3F3;
+}
+
+.contenedorBotones {
+    display: flex;
+}
+
+.icono {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.iconoCheck {
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+.iconoAccion {
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    opacity: 0;
+    transition: .3s ease all;
+}
+
+.mensaje {
+    text-align: center;
+    color: #b8b8b8;
+    font-size: 20px;
+    padding: 40px 20px;
+}
